@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Advanced Android</string>
+    <string name="intents_fragment_text">This is the Intents Fragment</string>
+    <string name="foreground_service_text">This is the Foreground Service Fragment</string>
+    <string name="background_service_text">This is the Background Service Fragment</string>
+    <string name="content_provider_text">This is the Content Provider Fragment</string>
+</resources>

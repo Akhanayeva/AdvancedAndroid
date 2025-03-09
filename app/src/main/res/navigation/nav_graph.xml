@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/mainFragment">
+
+    <!-- Main Fragment -->
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.advancedandroid.MainFragment"
+        android:label="MainFragment">
+
+        <!-- Actions to navigate from MainFragment -->
+        <action
+            android:id="@+id/action_mainFragment_to_intentsFragment"
+            app:destination="@id/intentsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_foregroundServiceFragment"
+            app:destination="@id/foregroundServiceFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_backgroundServiceFragment"
+            app:destination="@id/backgroundServiceFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_contentProviderFragment"
+            app:destination="@id/contentProviderFragment" />
+    </fragment>
+
+    <!-- Other Fragments -->
+    <fragment
+        android:id="@+id/intentsFragment"
+        android:name="com.example.advancedandroid.IntentsFragment"
+        android:label="IntentsFragment" />
+
+    <fragment
+        android:id="@+id/foregroundServiceFragment"
+        android:name="com.example.advancedandroid.ForegroundServiceFragment"
+        android:label="ForegroundServiceFragment" />
+
+    <fragment
+        android:id="@+id/backgroundServiceFragment"
+        android:name="com.example.advancedandroid.BackgroundServiceFragment"
+        android:label="BackgroundServiceFragment" />
+
+    <fragment
+        android:id="@+id/contentProviderFragment"
+        android:name="com.example.advancedandroid.ContentProviderFragment"
+        android:label="ContentProviderFragment" />
+
+</navigation>
