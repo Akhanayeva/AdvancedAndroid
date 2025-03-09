@@ -10,9 +10,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Pick an image and share to Instagram Stories"
-        android:textSize="18sp"
         android:textStyle="bold"
-        android:paddingBottom="16dp"/>
+        android:paddingBottom="16dp"
+        android:textSize="18sp"/>
 
     <ImageView
         android:id="@+id/imageView"
